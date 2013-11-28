@@ -44,7 +44,7 @@ module.exports = function(grunt){
     watch: {
       files: [
         '../DevHub/static/javascripts/libs/*.js',
-        '../DevHub/static/stylesheets//libs/*.css'
+        '../DevHub/static/stylesheets/libs/*.css'
         ],
       tasks: ['uglify','cssmin']
     }
