@@ -10,7 +10,7 @@ npm install -g grunt-cli
 ```
 
 ## プロジェクトの作成
-
+DevHub と並列に DevHub_grunt を作成します
 ```
 mkdir DevHub_grunt
 cd DevHub_grunt
