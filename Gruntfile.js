@@ -17,6 +17,7 @@ module.exports = function(grunt){
 //    "../DevHub/static/javascripts/perfect-scrollbar-0.4.5.with-mousewheel.min.js",
           "../DevHub/static/javascripts/libs/jquery.cookie.js",
           "../DevHub/static/javascripts/libs/jquery.autofit.js",
+          "../DevHub/static/javascripts/libs/flipsnap.min.js",
           "../DevHub/static/javascripts/libs/moment.js",
           "../DevHub/static/javascripts/libs/moment.lang_ja.js",
           "../DevHub/static/javascripts/libs/suggest.js",
