@@ -15,18 +15,36 @@ module.exports = function(grunt){
 //    "../DevHub/static/javascripts/jquery-ui.js",
 //    "../DevHub/static/javascripts/bootstrap.min.js",
 //    "../DevHub/static/javascripts/perfect-scrollbar-0.4.5.with-mousewheel.min.js",
-          "../DevHub/static/javascripts/libs/jquery.cookie.js",
-          "../DevHub/static/javascripts/libs/jquery.autofit.js",
-          "../DevHub/static/javascripts/libs/flipsnap.min.js",
-          "../DevHub/static/javascripts/libs/moment.js",
-          "../DevHub/static/javascripts/libs/moment.lang_ja.js",
-          "../DevHub/static/javascripts/libs/suggest.js",
-          "../DevHub/static/javascripts/libs/livestamp.js",
-          "../DevHub/static/javascripts/libs/jquery.decora.js",
-          "../DevHub/static/javascripts/libs/jquery.caret.js",
-          "../DevHub/static/javascripts/libs/difflib.js",
-          "../DevHub/static/javascripts/libs/diffview.js",
-          "../DevHub/static/javascripts/libs/client.js",
+            "../DevHub/static/javascripts/libs/jquery.cookie.js",
+            "../DevHub/static/javascripts/libs/jquery.finger.min.js",
+            "../DevHub/static/javascripts/libs/jquery.autofit.js",
+            "../DevHub/static/javascripts/libs/flipsnap.min.js",
+            "../DevHub/static/javascripts/libs/moment.js",
+            "../DevHub/static/javascripts/libs/moment.lang_ja.js",
+            "../DevHub/static/javascripts/libs/suggest.js",
+            "../DevHub/static/javascripts/libs/livestamp.js",
+            "../DevHub/static/javascripts/libs/jquery.decora.js",
+            "../DevHub/static/javascripts/libs/jquery.caret.js",
+            "../DevHub/static/javascripts/libs/difflib.js",
+            "../DevHub/static/javascripts/libs/diffview.js",
+            "../DevHub/static/javascripts/libs/client.js",
+          ],
+          "../DevHub/static/javascripts/bot_maker.min.js" : [
+//    "../DevHub/static/javascripts/jquery.min.js",
+//    "../DevHub/static/javascripts/jquery-ui.js",
+//    "../DevHub/static/javascripts/bootstrap.min.js",
+//    "../DevHub/static/javascripts/perfect-scrollbar-0.4.5.with-mousewheel.min.js",
+            "../DevHub/static/javascripts/libs/jquery.cookie.js",
+            "../DevHub/static/javascripts/libs/jquery.autofit.js",
+            "../DevHub/static/javascripts/libs/moment.js",
+            "../DevHub/static/javascripts/libs/moment.lang_ja.js",
+            "../DevHub/static/javascripts/libs/suggest.js",
+            "../DevHub/static/javascripts/libs/livestamp.js",
+            "../DevHub/static/javascripts/libs/jquery.decora.js",
+            "../DevHub/static/javascripts/libs/jquery.caret.js",
+            "../DevHub/static/javascripts/libs/difflib.js",
+            "../DevHub/static/javascripts/libs/diffview.js",
+//            "../DevHub/static/javascripts/libs/bot_maker.js",
           ]
         }
       }
@@ -51,7 +69,7 @@ module.exports = function(grunt){
     }
   });
 
-  grunt.registerTask("default", ["uglify", "cssmin"]);
+  grunt.registerTask("default", ["uglify", "cssmin","watch"]);
  
 };
 
